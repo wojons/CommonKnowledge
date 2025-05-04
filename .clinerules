@@ -8,6 +8,11 @@
         "tool_name": "sequentialthinking",
         "reason": "Use the sequentialthinking MCP tool to manage the steps and progress for processing each pattern/subject due to the large number of items in the 'knowledge/' directory."
       }
+    },
+    {
+      "task": "Update the GitHub repository after task completion.",
+      "process": "1. Add any changes to the Git staging area. 2. Commit the changes with a descriptive message. 3. Push the changes to the remote origin.",
+      "trigger": "after_task_completion"
     }
   ]
 }
