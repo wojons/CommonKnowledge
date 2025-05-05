@@ -42,16 +42,34 @@
 
 ## What's Left to Build
 
-- [ ] List what remains to be built.
+- Complete the web interface functionality for merging selected files
+- Add a preview feature for selected files in the web interface
+- Implement export options for merged content
+- Improve the UI/UX with better styling and responsive design
+- Process the remaining patterns and create NotebookLM knowledge entries
+- Enhance the file selection mechanism to show more details about each file
 
 ## Current Status
 
-- [ ] Describe the current status of the project.
+- Basic web interface created with file selection functionality
+- Patterns from the Fabric project have been incorporated
+- Project structure has been organized with patterns, research, and notebooklm-knowledge directories
+- Memory bank documentation has been updated to reflect current progress
+- Web interface is hosted on GitHub Pages
+- MIT License has been added to the project
 
 ## Known Issues
 
-- [ ] Document any known issues.
+- The web interface currently only allows selection of files but doesn't implement the merging functionality yet
+- File paths in the web interface are hardcoded and may need to be dynamically generated
+- The interface doesn't provide a preview of file contents before selection
+- No error handling for file operations in the web interface
+- Limited responsive design for mobile devices
 
 ## Evolution of Project Decisions
 
-- [ ] Record the evolution of project decisions.
+- Initially, the project had separate 'patterns/' and 'knowledge/' directories, but they were merged to simplify the structure
+- Decided to use a web interface instead of command-line tools to make the project more accessible to users
+- Added MIT license to align with the apparent intent of the Fabric project
+- Organized the interface by directory type (Patterns and NotebookLM Knowledge) for better usability
+- Implemented a checkbox-based selection system to allow multiple files to be selected simultaneously
