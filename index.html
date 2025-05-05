@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge File Merger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Knowledge File Merger</h1>
+        <p>Select files from the directories below to merge their content. The patterns are sourced from the <a href="https://github.com/danielmiessler/fabric" target="_blank">Fabric project</a> under MIT license.</p>
+
+        <div class="file-selection">
+            <h2>Patterns</h2>
+            <div id="patterns-list">
+                <!-- File list will be populated by JavaScript -->
+            </div>
+
+            <h2>NotebookLM Knowledge</h2>
+            <div id="notebooklm-knowledge-list">
+                <!-- File list will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <button id="merge-button">Merge Selected Files</button>
+
+        <div class="output">
+            <h2>Merged Content</h2>
+            <textarea id="merged-content" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
