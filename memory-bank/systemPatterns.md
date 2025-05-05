@@ -13,7 +13,7 @@
 
 - The "Common Knowledge Context Pack" follows a structured Markdown format, acting as a standardized knowledge representation composed of individual instruction sets.
 - Each individual instruction set within the pack adheres to a consistent structure: `# Instruction Set: [Main Topic Title]`, `## Core Goal of this Task Area`, `## Guiding Principles for Success`, `## Quality Criteria: What "Good" Looks Like`, `## Best Practices: How to Execute Effectively` (including sub-task specifics), `## Common Pitfalls: What to Avoid`, and optional `## Illustrative Example`.
-- The content generation process utilizes a "Meta-Prompt" pattern to instruct an LLM to generate these structured instruction sets.
+- The content generation process utilizes a "Meta-Prompt" pattern to instruct an LLM to generate these structured instruction sets. These patterns are sourced from the Fabric project.
 - The use of clear Markdown headings (`#`, `##`, `###`) and bullet points (`*`, `-`) within the Context Pack is a key design pattern to ensure the content is well-structured and easily parsable and usable by AI assistants like NotebookLM.
 
 ## Component Relationships

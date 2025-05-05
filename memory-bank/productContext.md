@@ -194,7 +194,7 @@ This project aims to solve problems that can be addressed by leveraging Large La
 
 The project should function by leveraging the capabilities of Large Language Models (LLMs) to address the problems outlined in the detailed list above. This will involve implementing features that utilize LLMs for tasks such as text generation, summarization, question answering, conversation, data analysis, and potentially other applications from the detailed list of common uses.
 
-A core component of the project is the creation of a "Common Knowledge Context Pack", which will consist of multiple, distinct instruction sets. Each instruction set will be a self-contained Markdown document section for a specific main topic and its sub-tasks.
+A core component of the project is the creation of a "Common Knowledge Context Pack", which will consist of multiple, distinct instruction sets. Each instruction set will be a self-contained Markdown document section for a specific main topic and its sub-tasks. These instruction sets are now located within the `patterns/` directory.
 
 Each generated instruction set will follow a defined structure:
 ```markdown

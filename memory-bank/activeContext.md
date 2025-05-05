@@ -8,7 +8,9 @@
 
 ## Recent Changes
 
-- Generated and saved the "Content Creation & Writing" instruction set (`knowledge/instruction-sets/content-creation-writing.md`).
+- Merged the unique content from the `knowledge/` directory into the `patterns/` directory and deleted the `knowledge/` directory.
+- Updated `README.md` to include information about the source of the patterns and the project's license.
+- Created the `LICENSE` file with the MIT license.
 - Performed web search research on NotebookLM limitations and best practices for sources.
 - Updated Memory Bank based on existing knowledge entries in `notebooklm-knowledge/`.
 
